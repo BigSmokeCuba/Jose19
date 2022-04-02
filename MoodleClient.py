@@ -44,11 +44,11 @@ class CallingUpload:
                             self.speed = 0
 
 class MoodleClient(object):
-    def __init__(self, user,passw,host='',repo_id=4,proxy:ProxyCloud=None):
+    def __init__(self, user,passw,host='',repo_id=3,proxy:ProxyCloud=None):
         self.username = user
         self.password = passw
         self.session = requests.Session()
-        self.path = 'https://moodle.uclv.edu.cu/'
+        self.path = 'https://eduvirtual.uho.edu.cu/' 
         if host!='':
             self.path = host
         self.userdata = None
