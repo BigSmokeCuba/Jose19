@@ -41,7 +41,7 @@ def main():
     # set in debug
     api_id = '13193029' 
     api_hash = '03bca249fdbe6824b1ca6d928a2e60ee' 
-    bot_token = '5212171704:AAFIFKVlClHOdmBAdxf_YN9VNCSByQBQwYQ' 
+    bot_token = '5214637079:AAHqzXinqVwsvfkldADzTiUlyGHu2QVeBzc' 
     tl_admin_user = 'BigSmoke19'
     # end
 
